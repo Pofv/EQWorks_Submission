@@ -1,0 +1,9 @@
+Hypotheses:
+
+
+By using google maps, we can determine that the location of POI1 and POI2 are at a parking lot in Edmonton. POI3 is in Montreal and POI4 is in a park in Nova Scotia. Looking through some of the requests in the dataframe, I've found that many of those happen to come from residential areas. 
+Some requests come from the exact same geoinfo, just at different times of the day. 
+
+One guess would be that these are the requests to a website during the day, coming from a location in Canada, but this doesn't explain the several coodinates outside of Canada. Futhermore, distribution of time was relatively uniform throughout the day. 
+
+Thus, I best guess would be that these are weather stations specific to Canada, that's why we see some outside of Canada. They would need to send information at all points of the day and would be distributed all over the place. 
